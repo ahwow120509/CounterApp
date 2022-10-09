@@ -16,6 +16,7 @@ import {
   Text,
   useColorScheme,
   View,
+  NativeModules,
 } from 'react-native';
 
 import {
@@ -25,6 +26,8 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -53,6 +56,9 @@ const Section = ({children, title}): Node => {
 };
 
 const App: () => Node = () => {
+  console.log('NativeModules.Counter >>>>')
+  console.log(NativeModules.Counter.increment())
+  console.log('NativeModules.Counter End')
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
