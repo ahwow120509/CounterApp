@@ -18,25 +18,19 @@ import {
   findNodeHandle
 } from 'react-native';
 
-const CounterView = requireNativeComponent("CounterView")
+import CounterView from './CounterView'
 
 export default class App extends Component {
   state = {
     count: 1
   };
 
-  update = e => {
-    this.setState({
-      count: e.nativeEvent.count
-    })
-  }
 
+  update = e => {
+    this.setState({ count: e.count })
+  }
   updateNative = () => {
-    UIManager.dispatchViewManagerCommand(
-      findNodeHandle(this.counterRef),                     // 1
-      UIManager["CounterView"].Commands.updateFromManager, // 2
-      [this.state.count]                                   // 3
-    );
+    this.counterRef.update(this.state.count);
   }
 
 
