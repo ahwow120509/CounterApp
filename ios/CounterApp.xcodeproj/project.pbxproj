@@ -11,6 +11,9 @@
 		0C80B921A6F3F58F76C31292 /* libPods-CounterApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-CounterApp.a */; };
 		0E8348E128F29A6400D657FA /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8348E028F29A6400D657FA /* Counter.swift */; };
 		0E8348E328F29B2D00D657FA /* Counter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8348E228F29B2D00D657FA /* Counter.m */; };
+		0E8348E528F2CE6500D657FA /* CounterViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8348E428F2CE6500D657FA /* CounterViewManager.swift */; };
+		0E8348E728F2CEB100D657FA /* CounterViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8348E628F2CEB100D657FA /* CounterViewManager.m */; };
+		0E8348E928F3027000D657FA /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8348E828F3027000D657FA /* CounterView.swift */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -35,6 +38,9 @@
 		0E8348DF28F29A6400D657FA /* CounterApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CounterApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		0E8348E028F29A6400D657FA /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Counter.swift; path = CounterApp/Counter.swift; sourceTree = "<group>"; };
 		0E8348E228F29B2D00D657FA /* Counter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Counter.m; sourceTree = "<group>"; };
+		0E8348E428F2CE6500D657FA /* CounterViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewManager.swift; sourceTree = "<group>"; };
+		0E8348E628F2CEB100D657FA /* CounterViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CounterViewManager.m; sourceTree = "<group>"; };
+		0E8348E828F3027000D657FA /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* CounterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CounterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CounterApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CounterApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				0E8348DF28F29A6400D657FA /* CounterApp-Bridging-Header.h */,
+				0E8348E428F2CE6500D657FA /* CounterViewManager.swift */,
+				0E8348E828F3027000D657FA /* CounterView.swift */,
+				0E8348E628F2CEB100D657FA /* CounterViewManager.m */,
 			);
 			name = CounterApp;
 			sourceTree = "<group>";
@@ -421,7 +430,10 @@
 				0E8348E328F29B2D00D657FA /* Counter.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				0E8348E928F3027000D657FA /* CounterView.swift in Sources */,
 				0E8348E128F29A6400D657FA /* Counter.swift in Sources */,
+				0E8348E528F2CE6500D657FA /* CounterViewManager.swift in Sources */,
+				0E8348E728F2CEB100D657FA /* CounterViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
